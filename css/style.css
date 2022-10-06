@@ -72,6 +72,7 @@ html {
     flex-direction: column;
     gap: 1rem;
     padding: .55rem;
+    color: #6C6C6C;
 }
 
 .sidebar .container-sidebar-img {
@@ -90,17 +91,25 @@ html {
     border-radius: 50%;
 }
 
-.container-sidebar-fullscreen {
+.sidebar .container-sidebar-fullscreen {
     display: none;
 }
 
 @media (min-width: 553px) {
-    .container-sidebar-img {
+    
+    .sidebar .container-sidebar-img {
         display: none;
     }
 
-    .container-sidebar-fullscreen {
-        display: inline;
+    .sidebar .container-sidebar-fullscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .sidebar .container-sidebar-fullscreen .span {
+        float: left;
     }
 }
 
