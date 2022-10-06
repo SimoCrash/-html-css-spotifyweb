@@ -82,10 +82,6 @@ html {
     height: 100%;
 }
 
-.sidebar .container-sidebar-img .img-bottom {
-    gap: 1rem;
-}
-
 .profile-img {
     background-color: #ababab;
     border-radius: 50%;
@@ -108,8 +104,21 @@ html {
         height: 100%;
     }
 
-    .sidebar .container-sidebar-fullscreen .span {
-        float: left;
+    .container-sidebar-fullscreen img{
+        width: 50%;
     }
+
+    .fullscreen-top {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+
+    .fullscreen-top div {
+        display: flex;
+        align-items: center;
+    }
+
+    
 }
 
