@@ -104,8 +104,16 @@ html {
         height: 100%;
     }
 
-    .logo-fulscreen {
-        width: 50%;
+    .container-sidebar-fullscreen .fullscreen-top-logo {
+        height: 90px;
+    }
+
+    .container-sidebar-fullscreen .fullscreen-top {
+        height: calc(100% - 90px - 90px);
+    }
+
+    .container-sidebar-fullscreen .fullscreen-bottom {
+        height: 90px;
     }
 
     .fullscreen-top, .fullscreen-bottom {
