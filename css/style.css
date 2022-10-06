@@ -104,17 +104,17 @@ html {
         height: 100%;
     }
 
-    .container-sidebar-fullscreen img{
+    .logo-fulscreen {
         width: 50%;
     }
 
-    .fullscreen-top {
+    .fullscreen-top, .fullscreen-bottom {
         display: flex;
         flex-direction: column;
         width: 20%;
     }
 
-    .fullscreen-top div {
+    .fullscreen-top div, .fullscreen-bottom div {
         display: flex;
         align-items: center;
     }
