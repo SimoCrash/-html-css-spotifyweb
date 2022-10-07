@@ -188,6 +188,12 @@ html {
 }
 
 
+/* CONTENTS */
+
+.main-menu-list li {
+    text-transform: uppercase;
+}
+
 /* OVERLAY */
 .upgrade-btn {
     color: white;
