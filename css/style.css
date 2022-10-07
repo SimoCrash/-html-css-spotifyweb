@@ -110,6 +110,7 @@ html {
 
     .container-sidebar-fullscreen .fullscreen-top {
         height: calc(100% - 90px - 90px);
+        width: 100%;
     }
 
     .container-sidebar-fullscreen .fullscreen-bottom {
@@ -119,13 +120,35 @@ html {
     .fullscreen-top, .fullscreen-bottom {
         display: flex;
         flex-direction: column;
-        width: 20%;
     }
 
     .fullscreen-top div, .fullscreen-bottom div {
         display: flex;
-        align-items: center;
+        align-items: center; 
+        width: 20%;
     }
+
+    .fullscreen-top .playlist {
+        padding-top: 1rem;
+        line-height: 1.5em;
+    }
+
+    .fullscreen-top .playlist li {
+        list-style: none;
+    }
+
+    .fullscreen-top .playlist .title-playlist {
+        color: white;
+    }
+
+    .fullscreen-top .playlist i {
+        font-size: 2em;
+        height: auto;
+        background-color: #6C6C6C;
+        color: black;
+    }
+
+    
 
     
 }
