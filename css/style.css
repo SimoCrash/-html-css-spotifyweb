@@ -190,9 +190,94 @@ html {
 
 /* CONTENTS */
 
+.main-menu {
+    min-width: 0;
+    margin: auto;
+    color: #6C6C6C;
+}
+
+.main-menu .main-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
 .main-menu-list li {
     text-transform: uppercase;
+    list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* :hover_contents */
+
+.main-menu-list li:hover {
+    color: white;
+    border-bottom: 1px solid #ADFF2F;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* OVERLAY */
 .upgrade-btn {
