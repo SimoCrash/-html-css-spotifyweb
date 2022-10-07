@@ -114,23 +114,26 @@ html {
     }
 
     .container-sidebar-fullscreen .fullscreen-bottom {
-        height: 90px;
+        height: 100px;
     }
 
     .fullscreen-top, .fullscreen-bottom {
         display: flex;
         flex-direction: column;
     }
-
+    
     .fullscreen-top div, .fullscreen-bottom div {
         display: flex;
         align-items: center; 
+        width: 100%;
+    }
+    .fullscreen-top img, .fullscreen-bottom img {
         width: 20%;
     }
 
     .fullscreen-top .playlist {
         padding-top: 1rem;
-        line-height: 1.5em;
+        line-height: 2em;
     }
 
     .fullscreen-top .playlist li {
@@ -148,8 +151,31 @@ html {
         color: black;
     }
 
-    
+    .fullscreen-bottom .profile-name {
+        color: white;
+        border-top: 2px solid #6C6C6C;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .profile-img {
+        background-color: #ababab;
+        border-radius: 50%;
+    }
+
+    /* HOVER_SIDEBAR */
+
+    .fullscreen-top div:hover,
+    .fullscreen-top .playlist li:hover,
+    .fullscreen-bottom div:hover,
+    .fullscreen-top .playlist i:hover {
+        color: white;
+        cursor: pointer;
+    }
 
     
+    .container-sidebar-fullscreen .fullscreen-bottom .profile-name:hover {
+        cursor: text;
+    }
 }
 
