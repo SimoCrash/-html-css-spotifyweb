@@ -127,8 +127,13 @@ html {
         align-items: center; 
         width: 100%;
     }
+
     .fullscreen-top img, .fullscreen-bottom img {
         width: 20%;
+    }
+
+    .container-sidebar-fullscreen .fullscreen-top .home {
+        color: white;
     }
 
     .fullscreen-top .playlist {
@@ -163,19 +168,39 @@ html {
         border-radius: 50%;
     }
 
-    /* HOVER_SIDEBAR */
+    /* :hover_sidebar */
 
     .fullscreen-top div:hover,
     .fullscreen-top .playlist li:hover,
-    .fullscreen-bottom div:hover,
-    .fullscreen-top .playlist i:hover {
+    .fullscreen-bottom div:hover {
         color: white;
         cursor: pointer;
     }
 
+    .fullscreen-top .playlist i:hover {
+        background-color: white;
+        color: black;
+    }
     
     .container-sidebar-fullscreen .fullscreen-bottom .profile-name:hover {
         cursor: text;
     }
 }
 
+
+/* OVERLAY */
+.upgrade-btn {
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+/* :hover_overlay */
+.upgrade-btn:hover {
+    cursor: pointer;
+    font-size: 1.1em;
+}
