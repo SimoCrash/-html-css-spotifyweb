@@ -222,8 +222,11 @@ html {
 
 .main-menu-list li:hover {
     color: white;
-    border-bottom: 1px solid #ADFF2F;
     cursor: pointer;
+}
+
+.main-menu .main-menu-list span:hover {
+    border-bottom: 1px solid #ADFF2F;
 }
 
 
