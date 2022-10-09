@@ -332,18 +332,6 @@ html {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* :hover_contents */
 
 .main-menu-list li:hover {
@@ -365,6 +353,63 @@ html {
 
 
 
+/* CONTROLS */
+
+.container-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 0.5rem;
+}
+
+.container-controls li {
+    list-style: none;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-box .container-song {
+    max-width: 200px;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.flex-box .container-song img {
+    max-width: 30%;
+    margin-right: 1.5rem;
+}
+
+.flex-box .container-text {
+    flex: 1 0 auto;
+}
+
+.card-song .container-icon {
+    align-self: center;
+    padding-left: 0.5rem;
+    color: #6C6C6C;
+    flex: 1 0 auto;
+}
+
+.player {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.player-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -386,6 +431,13 @@ html {
 
 
 
+
+
+.card-song .container-icon:hover {
+    align-self: center;
+    padding-left: 0.5rem;
+    color: white;
+}
 
 
 
